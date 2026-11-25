@@ -1,0 +1,17 @@
+{
+  "namespace": "urn:litnp:relation:",
+  "status": "local controlled vocabulary, not a recognized domain ontology",
+  "relations": {
+    "associated_with": "A statistical or observational association; does not imply causation.",
+    "predicts": "Subject predicts object in the reported model/setting; does not imply causation.",
+    "increases": "Object is higher under the subject condition versus the explicit comparator; causal attribution must be supported separately.",
+    "decreases": "Object is lower under the subject condition versus the explicit comparator; causal attribution must be supported separately.",
+    "causes": "An explicitly supported causal assertion; do not map association to this relation.",
+    "inhibits": "Reported inhibition of the object in the stated experimental scope.",
+    "activates": "Reported activation of the object in the stated experimental scope.",
+    "has_value": "A defined subject quantity has the object value/unit under retained conditions.",
+    "compared_with": "An explicit comparison; direction and metric remain in the claim and scope.",
+    "part_of": "Subject is a component of object, not the reverse.",
+    "related_to": "Fallback relation requiring an exact textual explanation and review; no stronger semantics implied."
+  }
+}
